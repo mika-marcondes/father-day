@@ -5,9 +5,9 @@
     "skipLibCheck": true
   },
   "paths": {
-    "@assets/*": ["./src/assets/*"],
-    "@components/*": ["./src/components/*"],
-    "@hooks/*": ["./src/hooks/*"],
-    "@screens/*": ["./src/screens/*"],
+    "@assets": ["./src/assets"],
+    "@components": ["./src/components"],
+    "@hooks": ["./src/hooks"],
+    "@screens": ["./src/screens"],
   }
 }
