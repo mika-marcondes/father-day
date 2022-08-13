@@ -2,12 +2,20 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "plugins": [
+      {
+        "transform": "typescript-plugin-styled-components",
+        "type": "config",
+        "minify": true,
+      }
+    ],
+    "paths": {
+      "@assets": ["./src/assets"],
+      "@components": ["./src/components"],
+      "@hooks": ["./src/hooks"],
+      "@screens": ["./src/screens"],
+    }
   },
-  "paths": {
-    "@assets": ["./src/assets"],
-    "@components": ["./src/components"],
-    "@hooks": ["./src/hooks"],
-    "@screens": ["./src/screens"],
-  }
 }
