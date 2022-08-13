@@ -11,6 +11,9 @@
         "minify": true,
       }
     ],
+    "types": [
+      "@types/styled-components-react-native",
+    ],
     "paths": {
       "@assets": ["./src/assets"],
       "@components": ["./src/components"],
