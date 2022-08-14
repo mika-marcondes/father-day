@@ -1,8 +1,8 @@
 import React from 'react';
-
-import {Container} from './style';
 import {Text} from 'react-native';
+
 import {CarouselView} from '@components';
+import {Container} from './style';
 
 export const HomeScreen: React.FC = () => {
   return (
